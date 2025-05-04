@@ -420,7 +420,50 @@
     },
     "notBefore" : 0,
     "groups" : [ ]
-  }, {
+  },
+  {
+    "id": "b1e1e1e1-1111-1111-1111-111111111111",
+    "username": "testuser",
+    "firstName": "Test",
+    "lastName": "User",
+    "email": "testuser@example.com",
+    "emailVerified": false,
+    "enabled": true,
+    "totp": false,
+    "credentials": [
+      {
+        "type": "password",
+        "value": "testpassword",
+        "temporary": false
+      }
+    ],
+    "realmRoles": [ "default-roles-fastapi-library", "user" ],
+    "clientRoles": {},
+    "notBefore": 0,
+    "groups": []
+  },
+  {
+    "id": "b2e2e2e2-2222-2222-2222-222222222222",
+    "username": "testadmin",
+    "firstName": "Test",
+    "lastName": "Admin",
+    "email": "testadmin@example.com",
+    "emailVerified": false,
+    "enabled": true,
+    "totp": false,
+    "credentials": [
+      {
+        "type": "password",
+        "value": "testpassword",
+        "temporary": false
+      }
+    ],
+    "realmRoles": [ "default-roles-fastapi-library", "appadmin" ],
+    "clientRoles": {},
+    "notBefore": 0,
+    "groups": []
+  } ,
+  {
     "id" : "a5c61e2b-6cb2-423c-a84b-d14789b51824",
     "username" : "service-account-fastapi-library",
     "emailVerified" : false,
