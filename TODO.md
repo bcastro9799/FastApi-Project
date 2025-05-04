@@ -12,11 +12,11 @@ Data must be persisted in an SQL-Database (for development Sqlite is OK, for pro
 		- [ X ] Users should be able to manage their own bookmarks
 		- [ X ] Users should not be able to manage other users' bookmarks
 - [ X ] Create a reasonable Readme.md
-- [ ] Code must be testable
-- [ ] Tests must be in place
-- [ ] Optional
-	- [ ] Update the application to log (important) events
-	- [ ] Create a deployment pipeline to build a Docker-Image
+- [ X ] Code must be testable
+- [ X ] Tests must be in place
+- [ X ] Optional
+	- [ X ] Update the application to log (important) events
+	- [ X ] Create a deployment pipeline to build a Docker-Image
 	- [ ] Create necessary files to start your application in k8s
 
 ### In Progress
