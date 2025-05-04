@@ -24,7 +24,7 @@ jobs:
           pip install pytest httpx
 
       - name: Start Docker Compose
-        run: docker-compose up -d
+        run: docker compose up -d
 
       - name: Wait for Keycloak
         run: |
